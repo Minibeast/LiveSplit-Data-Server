@@ -1,0 +1,11 @@
+<div id="{{ user.identifier }}">
+    <p>{{ user.identifier }}</p>
+    <p>&nbsp;</p>
+    {% for x in user.data %}
+    {% if x == "" %}
+    <p>&nbsp;</p>
+    {% else %}
+    {% endif %}
+    <p>{{x}}</p>
+    {% endfor %}
+</div>

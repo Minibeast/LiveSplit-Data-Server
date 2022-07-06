@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Dispence';
+    src: url('../fonts/Dispence.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: table;
+    background-color: darkblue;
+    color: white;
+    font-family: 'Dispence';
+    text-align: center;
+    font-size: 94px;
+}
+
+body>div {
+    display: table-cell;
+    padding-left: 32px;
+    padding-right: 32px;
+}
